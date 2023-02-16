@@ -35,19 +35,19 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Project-Objective:">Project objective:</a>
+      <a href="#Project-Objective">Project objective:</a>
     </li>
         <li>
-      <a href="#Project-goals:">Project goals:</a>
+      <a href="#Project-goals">Project goals:</a>
     </li>
     <li>
-      <a href="#Design-Considerations:">Design Considerations:</a>
+      <a href="#Design-Considerations">Design Considerations:</a>
     </li>
         <li>
-      <a href="#Content-Considerations:">Content Considerations:</a>
+      <a href="#Content-Considerations">Content Considerations:</a>
     </li>
             <li>
-      <a href="#Technical-Considerations:">Technical considerations:</a>
+      <a href="#Technical-Considerations">Technical considerations:</a>
     </li>
                 <li>
       <a href="#Conclusion">Conclusion:</a>

@@ -22,11 +22,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/singhenso/KPBS_Email_Newsletter_2023">
     <img src="Original/img/KPBS_RGB.d9e66d154c79.png" alt="Logo" width="80">
   </a>
 
-<h3 align="center">KPBS Email NewsLetter Redesign</h3>
+<h3 align="center">KPBS Email Newsletter Redesign</h3>
 
 </div>
 
@@ -87,6 +87,9 @@ Create a visually appealing and modern email newsletter template that is easy to
 Use a clean and modern layout with ample white space, easy-to-read fonts, and strategic use of images and graphics that align with KPBS's brand. Ensure that the design is accessible and includes adequate contrast and font size, making it easier for users to read.
 
 Incorporate real world testing across various devices to ensure all of the end users receive the same visual experience.
+
+ [View Design Mockup of version #1 →](https://github.com/singhenso/KPBS_Email_Newsletter_2023/blob/main/Mockups%20v1/Mockup_v1.jpg)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

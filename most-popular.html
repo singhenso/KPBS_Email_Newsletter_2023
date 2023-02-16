@@ -76,7 +76,21 @@
       font-family: Roboto, sans-serif;
     }
 
+    /* ================================================================================================================================================ Media Queries */
     @media all and (max-width:750px) {
+      body>p {
+        padding: 0 20px 5px !important;
+      }
+
+      #title-box>tbody>tr>td {
+        padding: 0 20px !important;
+      }
+
+      #nav-header>tbody>tr>td {
+        padding: 20px 20px 0 20px !important;
+        ;
+      }
+
       td#content-left-td-cell {
         width: 100%;
       }
@@ -113,6 +127,7 @@
       td#newsletter-content-block {
         width: 100%;
         /* float: left; */
+        padding: 0 20px !important;
       }
 
       td#ads {
@@ -171,7 +186,8 @@
 
 
 
-                <td valign="middle" align="left" style="padding:3px 10px;color:#5B616B;padding-top: 60px;padding: 40px 50px 40px;padding-bottom: 0px;">
+                <td valign="middle" align="left"
+                  style="padding:3px 10px;color:#5B616B;padding-top: 60px;padding: 40px 50px 40px;padding-bottom: 0px;">
                   <span>WEDNESDAY, FEBRUARY 15, 2023</span>
                 </td>
 
@@ -203,14 +219,14 @@
 
 
 
-                        <td width="146" height="68" align="left" valign="middle" bgcolor="#fff" 
-                          <a href="https://www.kpbs.org/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=logo"
-                            target="_blank"><img src="img/KPBS_RGB.d9e66d154c79.png" alt="KPBS"
-                              width="160" height="44" border="0" align="absmiddle"
-                              style="border-right:1px solid #979797;margin-right:15px;padding-right:15px;"></a>
+                        <td width="146" height="68" align="left" valign="middle" bgcolor="#fff" <a
+                          href="https://www.kpbs.org/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=logo"
+                          target="_blank"><img src="img/KPBS_RGB.d9e66d154c79.png" alt="KPBS" width="160" height="44"
+                            border="0" align="absmiddle"
+                            style="border-right:1px solid #979797;margin-right:15px;padding-right:15px;"></a>
                         </td>
                         <td width="95%" height="68" align="left" valign="middle" bgcolor="#fff">
-                          <h1 class="title-condensed" style="margin:5px 0 0 0;font-size:30px;font-weight:700;">
+                          <h1 class="title-condensed" style="margin:5px 0 0 0;font-size:35px;font-weight:700;">
 
                             Most Popular
 
@@ -251,20 +267,19 @@
                   <!-- News content -->
                   <!-- Most Popular Newsletter design includes 2 lists with dividers -->
 
-                  <table style="
-                  border-bottom: 1px solid #979797;
-                  width: 100%;
-                  padding-bottom: 5px;
-              ">
+                  <table style="border-bottom: 1px solid #979797;width: 100%; padding-bottom: 5px;
+                                                                    ">
                     <tbody>
                       <tr>
                         <td>
-                          <h2 class="title-condensed" style="font-size:115%;margin-top:10px;margin-bottom: 0;font-weight: 700;">5 Most Popular</h2>
+                          <h2 class="title-condensed"
+                            style="font-size:115%;margin-top:10px;margin-bottom: 0;font-weight: 700;">5 Most Popular
+                          </h2>
                         </td>
                       </tr>
                     </tbody>
                   </table>
-
+                  <!-- Star of 5 popular story -->
                   <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
                     style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;padding: 30px 0;">
                     <tbody>
@@ -272,16 +287,16 @@
 
                         <td valign="top">
                           <h4 class="title-condensed"
-                          style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
-                          <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
-                          target="_blank">
-                          <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
-                            Black father finally released</span>
-                          </a>
-                        </h4>
-                        <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
-                          The video of this 2019 incident was made public because of the work of the First Amendment
-                          Coalition.</p>
+                            style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
+                            <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
+                              target="_blank">
+                              <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
+                                Black father finally released</span>
+                            </a>
+                          </h4>
+                          <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
+                            The video of this 2019 incident was made public because of the work of the First Amendment
+                            Coalition.</p>
                         </td>
                         <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
                           style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;vertical-align: middle;">
@@ -295,151 +310,205 @@
                           </a>
                         </td>
                       </tr>
-                      
+
                     </tbody>
                   </table>
+                  <!-- End of 5 popular story -->
+                  <!-- Star of 5 popular story -->
                   <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
-                  style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;">
-                  <tbody>
-                    <tr id="photo-headline">
+                    style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;padding: 30px 0;">
+                    <tbody>
+                      <tr id="photo-headline">
 
-                      <td valign="top">
-                        <h4 class="title-condensed"
-                        style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
-                        <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
-                        target="_blank">
-                        <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
-                          Black father finally released</span>
-                        </a>
-                      </h4>
-                      <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
-                        The video of this 2019 incident was made public because of the work of the First Amendment
-                        Coalition.</p>
-                      </td>
-                      <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
-                        style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;">
-                        <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
-                          target="_blank" style="text-decoration: none;">
-                          <img src="img/joe-young-taser-fire.jpg"
-                            alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                            title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                            align="left" valign="top" border="0" height+"90"="" width="100"
-                            style="display: inline;margin: 0;width: 100%;">
-                        </a>
-                      </td>
-                    </tr>
-                    <tr id="blank">
-                      <td align="left" height="20"></td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
-                style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;">
-                <tbody>
-                  <tr id="photo-headline">
+                        <td valign="top">
+                          <h4 class="title-condensed"
+                            style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
+                            <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
+                              target="_blank">
+                              <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
+                                Black father finally released</span>
+                            </a>
+                          </h4>
+                          <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
+                            The video of this 2019 incident was made public because of the work of the First Amendment
+                            Coalition.</p>
+                        </td>
+                        <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
+                          style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;vertical-align: middle;">
+                          <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
+                            target="_blank" style="text-decoration: none;">
+                            <img src="img/joe-young-taser-fire.jpg"
+                              alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              align="left" valign="top" border="0" height+"90"="" width="100"
+                              style="display: inline;margin: 0;width: 100%;">
+                          </a>
+                        </td>
+                      </tr>
 
-                    <td valign="top">
-                      <h4 class="title-condensed"
-                      style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
-                      <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
-                      target="_blank">
-                      <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
-                        Black father finally released</span>
-                      </a>
-                    </h4>
-                    <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
-                      The video of this 2019 incident was made public because of the work of the First Amendment
-                      Coalition.</p>
-                    </td>
-                    <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
-                      style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;">
-                      <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
-                        target="_blank" style="text-decoration: none;">
-                        <img src="img/joe-young-taser-fire.jpg"
-                          alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                          title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                          align="left" valign="top" border="0" height+"90"="" width="100"
-                          style="display: inline;margin: 0;width: 100%;">
-                      </a>
-                    </td>
-                  </tr>
-                  <tr id="blank">
-                    <td align="left" height="20"></td>
-                  </tr>
-                </tbody>
-              </table>
-              <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
-              style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;">
-              <tbody>
-                <tr id="photo-headline">
+                    </tbody>
+                  </table>
+                  <!-- End of 5 popular story --><!-- Star of 5 popular story -->
+                  <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
+                    style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;padding: 30px 0;">
+                    <tbody>
+                      <tr id="photo-headline">
 
-                  <td valign="top">
-                    <h4 class="title-condensed"
-                    style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
-                    <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
-                    target="_blank">
-                    <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
-                      Black father finally released</span>
-                    </a>
-                  </h4>
-                  <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
-                    The video of this 2019 incident was made public because of the work of the First Amendment
-                    Coalition.</p>
-                  </td>
-                  <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
-                    style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;">
-                    <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
-                      target="_blank" style="text-decoration: none;">
-                      <img src="img/joe-young-taser-fire.jpg"
-                        alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                        title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                        align="left" valign="top" border="0" height+"90"="" width="100"
-                        style="display: inline;margin: 0;width: 100%;">
-                    </a>
-                  </td>
-                </tr>
-                <tr id="blank">
-                  <td align="left" height="20"></td>
-                </tr>
-              </tbody>
-            </table>
-            <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
-            style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;">
-            <tbody>
-              <tr id="photo-headline">
+                        <td valign="top">
+                          <h4 class="title-condensed"
+                            style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
+                            <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
+                              target="_blank">
+                              <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
+                                Black father finally released</span>
+                            </a>
+                          </h4>
+                          <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
+                            The video of this 2019 incident was made public because of the work of the First Amendment
+                            Coalition.</p>
+                        </td>
+                        <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
+                          style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;vertical-align: middle;">
+                          <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
+                            target="_blank" style="text-decoration: none;">
+                            <img src="img/joe-young-taser-fire.jpg"
+                              alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              align="left" valign="top" border="0" height+"90"="" width="100"
+                              style="display: inline;margin: 0;width: 100%;">
+                          </a>
+                        </td>
+                      </tr>
 
-                <td valign="top">
-                  <h4 class="title-condensed"
-                  style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
-                  <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
-                  target="_blank">
-                  <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
-                    Black father finally released</span>
-                  </a>
-                </h4>
-                <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
-                  The video of this 2019 incident was made public because of the work of the First Amendment
-                  Coalition.</p>
-                </td>
-                <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
-                  style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;">
-                  <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
-                    target="_blank" style="text-decoration: none;">
-                    <img src="img/joe-young-taser-fire.jpg"
-                      alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                      title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
-                      align="left" valign="top" border="0" height+"90"="" width="100"
-                      style="display: inline;margin: 0;width: 100%;">
-                  </a>
-                </td>
-              </tr>
-              <tr id="blank">
-                <td align="left" height="20"></td>
-              </tr>
-            </tbody>
-          </table>
+                    </tbody>
+                  </table>
+                  <!-- End of 5 popular story --><!-- Star of 5 popular story -->
+                  <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
+                    style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;padding: 30px 0;">
+                    <tbody>
+                      <tr id="photo-headline">
 
-                  
+                        <td valign="top">
+                          <h4 class="title-condensed"
+                            style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
+                            <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
+                              target="_blank">
+                              <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
+                                Black father finally released</span>
+                            </a>
+                          </h4>
+                          <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
+                            The video of this 2019 incident was made public because of the work of the First Amendment
+                            Coalition.</p>
+                        </td>
+                        <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
+                          style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;vertical-align: middle;">
+                          <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
+                            target="_blank" style="text-decoration: none;">
+                            <img src="img/joe-young-taser-fire.jpg"
+                              alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              align="left" valign="top" border="0" height+"90"="" width="100"
+                              style="display: inline;margin: 0;width: 100%;">
+                          </a>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                  <!-- End of 5 popular story --><!-- Star of 5 popular story -->
+                  <table class="story" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
+                    style="font-size: 100%;line-height: 140%;color: #585858;border-bottom: 1px solid #979797;padding: 30px 0;">
+                    <tbody>
+                      <tr id="photo-headline">
+
+                        <td valign="top">
+                          <h4 class="title-condensed"
+                            style="font-size: 115%;font-weight: 500;line-height: 115%;margin: 0;padding: 0;">
+                            <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=headline"
+                              target="_blank">
+                              <span style="color: #015190;">Sheriff's video of deputies igniting a lighter when tasing
+                                Black father finally released</span>
+                            </a>
+                          </h4>
+                          <p style="font-size: 12px;line-height: 140%;margin-bottom: 0;margin-top: 10px;padding: 0;">
+                            The video of this 2019 incident was made public because of the work of the First Amendment
+                            Coalition.</p>
+                        </td>
+                        <td id="photo" width="100" valign="top" align="left" bgcolor="#FFFFFF"
+                          style="font-size: 100%;line-height: 140%;color: #585858;padding-left: 20px;vertical-align: middle;">
+                          <a href="https://www.kpbs.org/news/midday-edition/2023/02/02/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
+                            target="_blank" style="text-decoration: none;">
+                            <img src="img/joe-young-taser-fire.jpg"
+                              alt="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              title="Sheriff&#39;s video of deputies igniting a lighter when tasing Black father finally released"
+                              align="left" valign="top" border="0" height+"90"="" width="100"
+                              style="display: inline;margin: 0;width: 100%;">
+                          </a>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                  <!-- End of 5 popular story -->
+                  <!-- End of the entire top 5 popular stories -->
+                  <table id="midday" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
+                    style="color:#585858;border-spacing:0;">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table style="color:#555;line-height:140%;display:inline-block;border-spacing:0;">
+                            <tbody>
+                              <tr>
+                                <td>
+
+                                  <p class="title-condensed"
+                                    style="font-size:115%;margin-bottom:0;margin-top:0;display:inline-block;"><strong
+                                      style="color:#333;">Featured Podcast: KPBS Midday Edition</strong></p>
+
+                                  <div class="item"
+                                    style="border: 1px solid #5B616B;border-radius: 8px;margin-bottom:30px;padding:15px;">
+                                    <a
+                                      href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-play-button"><img
+                                        src="img/play_button_green.42787608a939.png" alt="Play button" class="cover"
+                                        style="float:left;margin:0 15px 0 0;"></a>
+                                    <h2 class="title-condensed" style="font-size:115%;line-height:140%;margin-top:0;">
+                                      Listen:
+                                      <a
+                                        href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-title">Sheriff's
+                                        video of deputies igniting a lighter when tasing Black father finally
+                                        released</a>
+                                    </h2>
+                                    <p
+                                      style="font-size:12px;line-height:140%;margin-bottom:0;margin-top:5px;padding:0;">
+                                      The San Diego County Sheriff’s department last week released body camera footage
+                                      from an incident that took place in 2019 in Imperial Beach. The video shows a
+                                      deputy tasing a Black father who had come to a Sheriff’s DUI checkpoint to pick up
+                                      his son who’d been detained along with …<a
+                                        href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released"
+                                        title="Read more">Read
+                                        more
+                                        →</a>
+                                    </p>
+                                    <p
+                                      style="font-size:12px;border: 1px solid #3D9E3E;box-sizing: border-box;border-radius: 15.8268px;padding: 9px 32px;width: fit-content;margin-top: 30px;">
+                                      <a href="https://www.kpbs.org/podcasts/san-diego-news-now/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-subscribe"
+                                        style="color:#262D26;font-weight: bold;">
+                                        SUBSCRIBE TO THE PODCAST
+                                      </a>
+                                    </p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
                   <table>
                     <tbody>
                       <tr>
@@ -480,7 +549,7 @@
                             Art Center; Mensah Bey at Bread and Salt; …</p>
                         </td>
                       </tr>
-                      
+
                     </tbody>
                   </table>
 
@@ -493,8 +562,7 @@
                           style="font-size: 100%; line-height: 140%;color: #585858;">
                           <a href="https://www.kpbs.org/news/local/2023/02/08/black-com-x-day-celebrates-its-fifth-year/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
                             target="_blank" style="text-decoration: none;">
-                            <img src="img/black-comics-day.jpg"
-                              alt="Black Com!x Day celebrates its 5th year"
+                            <img src="img/black-comics-day.jpg" alt="Black Com!x Day celebrates its 5th year"
                               title="Black Com!x Day celebrates its 5th year" align="left" valign="top" border="0"
                               height+"90"="" width="100"
                               style="margin-right: 10px; margin-bottom: 5px; display: inline;">
@@ -513,7 +581,7 @@
                             Cultural Center this weekend.</p>
                         </td>
                       </tr>
-                      
+
                     </tbody>
                   </table>
 
@@ -526,9 +594,9 @@
                           style="font-size: 100%; line-height: 140%;color: #585858;">
                           <a href="https://www.kpbs.org/news/arts-culture/2023/02/08/a-play-for-the-birds/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=photo"
                             target="_blank" style="text-decoration: none;">
-                            <img src="img/sears-dinga-web.jpg" alt="A play for the birds"
-                              title="A play for the birds" align="left" valign="top" border="0" height+"90"=""
-                              width="100" style="margin-right: 10px; margin-bottom: 5px; display: inline;">
+                            <img src="img/sears-dinga-web.jpg" alt="A play for the birds" title="A play for the birds"
+                              align="left" valign="top" border="0" height+"90"="" width="100"
+                              style="margin-right: 10px; margin-bottom: 5px; display: inline;">
                           </a>
                         </td>
                         <td valign="top">
@@ -544,7 +612,7 @@
                             "Birds of North America" to local stages. The play explores …</p>
                         </td>
                       </tr>
-                      
+
                     </tbody>
                   </table>
 
@@ -572,8 +640,8 @@
                                     style="border: 1px solid #5B616B;border-radius: 8px;margin-bottom:30px;padding:15px;">
                                     <a
                                       href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-play-button"><img
-                                        src="img/play_button_green.42787608a939.png" alt="Play button"
-                                        class="cover" style="float:left;margin:0 15px 0 0;"></a>
+                                        src="img/play_button_green.42787608a939.png" alt="Play button" class="cover"
+                                        style="float:left;margin:0 15px 0 0;"></a>
                                     <h2 class="title-condensed" style="font-size:115%;line-height:140%;margin-top:0;">
                                       Listen:
                                       <a
@@ -618,9 +686,10 @@
 
 
                 </td>
+                
                 <!--END CONTENT-left-white-td-->
               </tr>
-              
+
             </tbody>
           </table>
         </td>
@@ -681,22 +750,17 @@
                       <tr style="text-align:center;width: 100%;">
                         <td id="social" align="right" style="text-align:center;">
                           <a href="https://www.kpbs.org/radio/livestream/" target="_blank"
-                            style="margin-right:32px;"><img
-                              src="img/newsletter-social-listen-white.db694c58a354.png"
+                            style="margin-right:32px;"><img src="img/newsletter-social-listen-white.db694c58a354.png"
                               alt="Listen now icon"></a>
                           <a href="https://www.facebook.com/pages/kpbs/6673896747" target="_blank"
-                            style="margin-right:32px;"><img
-                              src="img/newsletter-social-facebook-white.05be5f461430.png"
+                            style="margin-right:32px;"><img src="img/newsletter-social-facebook-white.05be5f461430.png"
                               alt="Facebook icon"></a>
                           <a href="https://instagram.com/kpbsofficial/" target="_blank" style="margin-right:32px;"><img
-                              src="img/newsletter-social-instagram-white.5d166de5303a.png"
-                              alt="Instagram icon"></a>
+                              src="img/newsletter-social-instagram-white.5d166de5303a.png" alt="Instagram icon"></a>
                           <a href="https://twitter.com/KPBSnews" target="_blank" style="margin-right:32px;"><img
-                              src="img/newsletter-social-twitter-white.db7fb085f77a.png"
-                              alt="Twitter icon"></a>
+                              src="img/newsletter-social-twitter-white.db7fb085f77a.png" alt="Twitter icon"></a>
                           <a href="https://www.youtube.com/c/KPBSOrgSanDiego" target="_blank"><img
-                              src="img/newsletter-social-youtube-white.35340baf83b9.png"
-                              alt="YouTube icon"></a>
+                              src="img/newsletter-social-youtube-white.35340baf83b9.png" alt="YouTube icon"></a>
                         </td>
                       </tr>
                     </tbody>

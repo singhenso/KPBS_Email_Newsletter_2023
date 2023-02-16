@@ -88,7 +88,9 @@ Use a clean and modern layout with ample white space, easy-to-read fonts, and st
 
 Incorporate real world testing across various devices to ensure all of the end users receive the same visual experience.
 
- [View Design Mockup of version #1 →](https://github.com/singhenso/KPBS_Email_Newsletter_2023/blob/main/Mockups%20v1/Mockup_v1.jpg)
+Update the content so that it is easier for the end user to read through. The design is based on a F-Pattern so the users can follow along through each piece of content without getting overwhelmed.
+
+ [View Design Mockup of version #1 →](https://raw.githubusercontent.com/singhenso/KPBS_Email_Newsletter_2023/main/Mockups%20v1/Mockup_v1.jpg)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,6 +100,12 @@ Incorporate real world testing across various devices to ensure all of the end u
 
 
 Optimize the new template for different email clients, including Gmail, Yahoo, and Outlook. Use responsive design techniques to ensure that the newsletter is accessible and readable on different devices and screen sizes. Implement email marketing best practices, such as pre-header text, personalization, and clear call to action, to encourage users to engage with the content and share it on social media.
+
+I also updated the HTML markup to include the following types of Begin/End notes:
+```      
+<!-- END__ ------- News Now Banner --------->
+<!-- BEGIN ------- Bottom 3 text and image rows --------->
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

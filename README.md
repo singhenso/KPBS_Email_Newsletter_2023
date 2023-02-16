@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -19,8 +19,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -30,186 +28,136 @@
 
 <h3 align="center">KPBS Email NewsLetter Redesign</h3>
 
-  <p align="center">
-    A revamp of the newsletter email containing the most popular articles
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Design Mockup</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#Project-Objective:">Project objective:</a>
+    </li>
+        <li>
+      <a href="#Project-goals:">Project goals:</a>
+    </li>
+    <li>
+      <a href="#Design-Considerations:">Design Considerations:</a>
+    </li>
+        <li>
+      <a href="#Content-Considerations:">Content Considerations:</a>
+    </li>
+            <li>
+      <a href="#Technical-Considerations:">Technical considerations:</a>
+    </li>
+                <li>
+      <a href="#Conclusion">Conclusion:</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
+<!-- PProject Objective:-->
+
+## Project Objective:
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Redesign KPBS's email newsletter template to deliver the most popular news articles in an engaging and user-friendly way.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- PProject Objective:-->
+
+## Project Goals:
+
+Create a visually appealing and modern email newsletter template that is easy to navigate and presents the most popular KPBS news articles in a clear and concise manner. Ensure that the new design creates better engagement, is easier to read for the end user, and allows more social media shares.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Design Considerations: -->
+
+## Design Considerations:
+
+
+Use a clean and modern layout with ample white space, easy-to-read fonts, and strategic use of images and graphics that align with KPBS's brand. Ensure that the design is accessible and includes adequate contrast and font size, making it easier for users to read.
+
+Incorporate real world testing across various devices to ensure all of the end users receive the same visual experience.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Technical Considerations:
+
+
+
+Optimize the new template for different email clients, including Gmail, Yahoo, and Outlook. Use responsive design techniques to ensure that the newsletter is accessible and readable on different devices and screen sizes. Implement email marketing best practices, such as pre-header text, personalization, and clear call to action, to encourage users to engage with the content and share it on social media.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Content Considerations:
+
+
+
+Curate KPBS's news content to include the most popular and relevant articles that are high-quality and engaging. Present the articles in a clear and concise manner, with headlines, summaries, and images that are visually appealing and easy to read. Include links to the full articles and social media sharing options, making it easier for users to share content.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+## Conclusion:
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
+
+The new design for KPBS's email newsletter template will create better engagement, be easier to read for the end user, and allow more social media shares. With a visually appealing and modern design, high-quality curated content, and technical optimization, the redesigned template will be a valuable tool for delivering the most popular KPBS news articles to the audience in an engaging and user-friendly way.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Located below are the instructions to get started and view the new template.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Download the HTML file [most-popular.html](https://github.com/singhenso/KPBS_Email_Newsletter_2023/blob/main/most-popular.html)
+2. Open the HTML file within a web browser through desktop or mobile device
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Complete version #1 HTML page
+- [ ] Implement into the system for testing
+- [ ] Test functionality from a real email test
+- [ ] Gather feedback and prepare for version #2
+- [ ] Continuously iterate with improvements from research
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
+
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Gagandeep Singh
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/singhenso/KPBS_Email_Newsletter_2023](https://github.com/singhenso/KPBS_Email_Newsletter_2023)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
@@ -223,19 +171,19 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[vue-url]: https://vuejs.org/
+[angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[angular-url]: https://angular.io/
+[svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[svelte-url]: https://svelte.dev/
+[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[laravel-url]: https://laravel.com
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
+[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com

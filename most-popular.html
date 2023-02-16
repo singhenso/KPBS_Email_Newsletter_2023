@@ -92,21 +92,17 @@
       table#midday .item {
         padding: 20px !important;
         text-align: center !important;
-
       }
 
       table#midday .item tr td {
         float: left;
-
       }
 
       table#midday .item tr td a img {
-
         margin: 0 auto !important;
         width: 150px !important;
         display: block !important;
         margin-bottom: 20px !important;
-
       }
 
       #sponsorship-table .spon-item {
@@ -114,7 +110,6 @@
         float: left;
         isplay: contents;
       }
-
 
       td.content-left-td-cell {
         width: 100%;
@@ -178,15 +173,24 @@
         float: none !important;
       }
     }
+
     @media all and (max-width:450px) {
-    #sponsorship-table .spon-item {
+      #sponsorship-table .spon-item {
         padding: 0 !important;
         display: contents;
       }
+      #title-tr #title-text tbody tr td {
+        float:left;
+      }
+      #title-tr #title-text > tbody > tr{
+        margin-top: 20px;
+        display: block;
+      }
+
+
+
+
     }
-
-
-
   </style>
 </head>
 
@@ -207,7 +211,6 @@
   <!-- BEGIN ------- Newsletter Wrapper --------->
   <table id="newsletter-wrapper" width="100%" border="0" align="center" bgcolor="#fff" cellpadding="0" cellspacing="0"
     style="max-width:720px;width:100%;">
-
     <tbody>
       <!-- BEGIN ------- Date --------->
       <tr id="nav-header-tr" valign="top">
@@ -450,9 +453,7 @@
             </tbody>
           </table>
         </td>
-      </tr>
-
-      <!-- END__ ------- Top 5 text and image rows --------->
+      </tr> <!-- END__ ------- Top 5 text and image rows --------->
       <!-- BEGIN ------- News Now Banner --------->
       <tr id="news-now">
         <td class="newsletter-content-block" width="100%" valign="top" bgcolor="#fff" style=" padding: 0px; ">
@@ -512,66 +513,11 @@
               </tr>
             </tbody>
           </table>
-          <!-- END__ ------- News Now Banner --------->
-          <!-- BEGIN ------- Bottom 3 text and image rows --------->
-
-
-          <!-- <table width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
-            style="color:#585858;border-spacing:0;">
-            <tbody>
-              <tr>
-                <td>
-                  <table style="color:#555;line-height:140%;display:inline-block;border-spacing:0;">
-                    <tbody>
-                      <tr>
-                        <td>
-                          <p class="title-condensed"
-                            style="font-size:115%;margin-bottom:0;margin-top:0;display:inline-block;"><strong
-                              style="color:#333;">Featured Podcast: KPBS Midday Edition</strong></p>
-                          <div class="item"
-                            style="border: 1px solid #5B616B;border-radius: 8px;margin-bottom:30px;padding:15px;">
-                            <a
-                              href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-play-button"><img
-                                src="img/play_button_green.42787608a939.png" alt="Play button" class="cover"
-                                style="float:left;margin:0 15px 0 0;"></a>
-                            <h2 class="title-condensed" style="font-size:115%;line-height:140%;margin-top:0;">
-                              Listen:
-                              <a
-                                href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-title">Sheriff's
-                                video of deputies igniting a lighter when tasing Black father finally
-                                released</a>
-                            </h2>
-                            <p style="font-size:12px;line-height:140%;margin-bottom:0;margin-top:5px;padding:0;">
-                              The San Diego County Sheriff’s department last week released body camera footage
-                              from an incident that took place in 2019 in Imperial Beach. The video shows a
-                              deputy tasing a Black father who had come to a Sheriff’s DUI checkpoint to pick up
-                              his son who’d been detained along with …<a
-                                href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released"
-                                title="Read more">Read
-                                more
-                                →</a>
-                            </p>
-                            <p
-                              style="font-size:12px;border: 1px solid #3D9E3E;box-sizing: border-box;border-radius: 15.8268px;padding: 9px 32px;width: fit-content;margin-top: 30px;">
-                              <a href="https://www.kpbs.org/podcasts/san-diego-news-now/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-subscribe"
-                                style="color:#262D26;font-weight: bold;">
-                                SUBSCRIBE TO THE PODCAST
-                              </a>
-                            </p>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-          </table> -->
         </td>
       </tr>
       <!-- END__ ------- News Now Banner --------->
       <!-- BEGIN ------- Bottom 3 text and image rows --------->
-      <tr id="content-box" style="width:100%;float:left;">
+      <tr id="bottom-3-news" style="width:100%;float:left;">
         <td class="newsletter-content-block" width="100%" valign="top" bgcolor="#fff" style=" padding: 0 50px; ">
           <!-- BEGIN ------- Bottom 3 story Title --------->
           <table style="width: 100%; padding-bottom: 5px; border-bottom: 1px solid #979797;">
@@ -695,11 +641,6 @@
       <!-- BEGIN ------- SponsorShip Banner --------->
       <tr id="sponsorship-banner">
         <td class="newsletter-content-block" width="100%" valign="top" bgcolor="#fff" style="padding: 0px !important;">
-
-
-
-
-
           <table id="sponsorship-table" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0"
             style="width: 100%;text-align: center;color:#585858;border-spacing:0;background-color:#F7F7F7;padding: 30px 0;margin: 30px 0;">
             <tbody>
@@ -727,7 +668,6 @@
                           </table>
                         </td>
                         <td class="spon-item" style="padding: 0 20px;">
-
                           <table>
                             <tr id="ad1">
                               <td width="100%"
@@ -743,22 +683,20 @@
                                     style="width:100%" border="0"></a>
                               </td>
                             </tr>
+                          </table>
                         </td>
+                      </tr>
+                    </tbody>
                   </table>
+                </td>
               </tr>
-
-
             </tbody>
           </table>
         </td>
       </tr>
-    </tbody>
-  </table>
-  <!-- END__ ------- SponsorShip Banner --------->
-  <!-- BEGIN -------  Podcast --------->
-  <table width="100%" border="0" valign="top" cellspacing="0" cellpadding="0" style="color:#585858;border-spacing:0;">
-    <tbody>
-      <tr id="content-box" style="width:100%;float:left;">
+      <!-- END__ ------- SponsorShip Banner --------->
+      <!-- BEGIN -------  Podcast --------->
+      <tr id="podcast-box" style="width:100%;float:left;">
         <td class="newsletter-content-block" width="100%" valign="top" bgcolor="#fff" style=" padding: 30px 50px; ">
           <!-- BEGIN ------- Bottom 3 story Title --------->
           <table style="width: 100%; padding-bottom: 5px; border-bottom: 1px solid #979797;">
@@ -776,13 +714,14 @@
             <tbody>
               <tr>
                 <td>
-
                   <div class="item" style="border-bottom: 1px solid #979797;padding:30px;">
                     <a
                       href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-play-button">
-                      <img src="img/play.jpg" alt="Play button" class="cover" style="float:left;margin:0 15px 0 0;width:50px;">
+                      <img src="img/play.jpg" alt="Play button" class="cover"
+                        style="float:left;margin:0 15px 0 0;width:50px;">
                     </a>
-                    <h2 class="title-condensed" style="font-size: 115%;font-weight: 700;line-height: 125%;margin-top:0;">Listen:
+                    <h2 class="title-condensed"
+                      style="font-size: 115%;font-weight: 700;line-height: 125%;margin-top:0;">Listen:
                       <a
                         href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-title">Sheriff's
                         video of deputies igniting a lighter when tasing Black father finally released</a>
@@ -796,16 +735,11 @@
                         more
                         →</a>
                     </p>
-
                   </div>
                 </td>
               </tr>
               <tr>
                 <td>
-                  
-
-
-
                   <table style="margin: 0 auto;text-align: center;">
                     <tbody>
                       <tr>
@@ -815,14 +749,15 @@
                               <tr>
                                 <td>
                                   <div class="item" style="padding: 30px 0 10px;">
-                                    <a h href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-play-button" style="color:#262D26;font-weight: bold;"> <img src="img/btn-listen.jpg" alt="Listen Now to Podcast!" class="cover" style="width:200px;">
+                                    <a href="https://www.kpbs.org/podcasts/kpbs-midday-edition/sheriffs-video-of-deputies-igniting-a-lighter-when-tasing-black-father-finally-released/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-play-button"
+                                      style="color:#262D26;font-weight: bold;"> <img src="img/btn-listen.png"
+                                        alt="Listen Now to Podcast!" class="cover" style="width:200px;">
                                     </a>
                                   </div>
                                 </td>
                               </tr>
                             </tbody>
                           </table>
-     
                         </td>
                       </tr>
                       <tr>
@@ -830,23 +765,64 @@
                           <table>
                             <tr>
                               <td>
-                                <div class="item" style="">
+                                <div class="item">
                                   <a href="https://www.kpbs.org/podcasts/san-diego-news-now/?utm_campaign=newsletter&amp;utm_medium=email&amp;utm_source=most-popular&amp;utm_term=podcast-episode-subscribe"
-                                    style="color:#262D26;font-weight: bold;"> <img src="img/btn-subscribe.jpg" alt="Subscribe Now to Podcast!" class="cover" style="width:200px;">
+                                    style="color:#262D26;font-weight: bold;"> <img src="img/btn-subscribe.png"
+                                      alt="Subscribe Now to Podcast!" class="cover" style="width:200px;">
                                   </a>
                                 </div>
                               </td>
                             </tr>
                           </table>
-       
                         </td>
                       </tr>
                     </tbody>
                   </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <!-- END__ -------  Podcast --------->
+<!-- BEGIN -------  Give Thanks --------->
 
-       
-                
-   
+
+      <tr id="give-thanks">
+        <td class="newsletter-content-block" width="100%" valign="top" bgcolor="#fff" style="padding: 0px !important;">
+          <table id="thanks-table" width="100%" border="0" valign="top" cellspacing="0" cellpadding="0" style="width: 100%;text-align: center;color:#585858;border-spacing:0;background-color:#EFF5FF;padding: 30px 0;">
+            <tbody>
+              <tr>
+                <td>
+                  <table style="color:#555;line-height:140%;display:inline-block;border-spacing:0;">
+                    <tbody>
+                      <tr>
+                        <td class="spon-item" style="padding: 0 20px;">
+                          <table class="title-condensed" id="membership-ask"
+                          style="width: 100%;margin: 5px auto;padding: 20px 5px;text-align: center;">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <p style="font-weight: 700;font-size: 115%;color: #262D26;line-height: 30px;">
+                                  We believe in truth, accountability and trust. Do you?
+                                </p>
+                                <a
+                                  href="https://www.pledgecart.org/pledgeCart3/?campaign=55A528CB-FE11-4B31-9C1A-CE6ED34641E3&amp;source=AMW200003TOP">
+                                  <img src="img/btn-thanks.png" style="width:200px;" alt="Yes, I support KPBS!">
+                                </a>
+                                <!--<div
+                              style="width: 200px; background-color: #E58426; color: #fff; font-size: 18px; font-weight: 500; border-radius: 5px; text-align: center; padding: 7px; margin: 15px auto 15px auto;">
+                              Yes, I support KPBS!</div>-->
+                                <p style="font-weight: 700;font-size:80%;color:#262D26;line-height:30px;">Support our mission
+                                  today with a tax-deductible donation.</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </td>
               </tr>
             </tbody>
@@ -855,103 +831,69 @@
       </tr>
 
 
+ <!-- END__ -------  Give Thanks --------->
+
+      <!--BEGIN FOOTER-->
+      <tr id="footer" valign="top">
+        <td valign="top" width="100%">
+
+          <table id="footer-wrapper" cellspacing="0" cellpadding="0" bgcolor="#fff" align="left" width="100%">
+            <tbody>
+              <tr id="footer-box-tr">
+                <td width="100%" bgcolor="#262D26"
+                  style="font-size:12px;text-align:center;padding:20px 10px;color:#FFFFFF;">
+                  <table style="width:100%;">
+                    <tbody>
+                      <tr style="text-align:center;width: 100%;">
+                        <td id="social" align="right" style="text-align:center;">
+                          <a href="https://www.kpbs.org/radio/livestream/" target="_blank"
+                            style="margin-right:32px;"><img src="img/newsletter-social-listen-white.db694c58a354.png"
+                              alt="Listen now icon"></a>
+                          <a href="https://www.facebook.com/pages/kpbs/6673896747" target="_blank"
+                            style="margin-right:32px;"><img src="img/newsletter-social-facebook-white.05be5f461430.png"
+                              alt="Facebook icon"></a>
+                          <a href="https://instagram.com/kpbsofficial/" target="_blank" style="margin-right:32px;"><img
+                              src="img/newsletter-social-instagram-white.5d166de5303a.png" alt="Instagram icon"></a>
+                          <a href="https://twitter.com/KPBSnews" target="_blank" style="margin-right:32px;"><img
+                              src="img/newsletter-social-twitter-white.db7fb085f77a.png" alt="Twitter icon"></a>
+                          <a href="https://www.youtube.com/c/KPBSOrgSanDiego" target="_blank"><img
+                              src="img/newsletter-social-youtube-white.35340baf83b9.png" alt="YouTube icon"></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>KPBS Public Media<br>
+                    5200 Campanile Drive<br>
+                    San Diego, CA 92182</p>
+                  <p>If this newsletter was forwarded to you and you'd like to receive it
+                    every day, <a style="color: #FFFFFF;text-decoration: underline;"
+                      href="https://www.kpbs.org/newsletters/">click here to subscribe.</a></p>
+                  <p>Don't want to receive this newsletter anymore?
+                    <a style="color:#FFFFFF;text-decoration: underline;"
+                      href="http://kpbs.informz.net/KPBS/pages/Weekly_Newsletter_optout">Click here to opt out.</a>
+                  </p>
+                  <p>KPBS is a public service of San Diego State University<br>
+                    ©2023 KPBS</p>
+                </td>
+              </tr>
+              <tr id="blank-footer-row">
+                <td height="10" width="100%"><span></span></td>
+              </tr>
+              <tr id="blank-footer-row">
+                <td height="10" width="100%"><span></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <!--END FOOTER-row-->
 
 
 
     </tbody>
   </table>
-  <!-- END__ -------  Podcast --------->
-  </td>
-  </tr>
-  <!--BEGIN FOOTER-->
-  <tr id="footer" valign="top">
-    <td valign="top" width="100%">
-      <table style="width:100%;">
-        <tbody>
-          <tr id="give-tr">
-            <td width="100%">
-              <table class="title-condensed" id="membership-ask"
-                style="background-color: #F1B434;width: 100%;margin: 5px auto;padding: 20px 5px;text-align: center;">
-                <tbody>
-                  <tr>
-                    <td>
-                      <p style="font-weight: 700;font-size: 115%;color: #262D26;line-height: 30px;">
-                        We believe in truth, accountability and trust. Do you?
-                      </p>
-                      <a
-                        href="https://www.pledgecart.org/pledgeCart3/?campaign=55A528CB-FE11-4B31-9C1A-CE6ED34641E3&amp;source=AMW200003TOP">
-                        <img src="img/support-white.20afac03a7fe.png" alt="Yes, I support KPBS!">
-                      </a>
-                      <!--<div
-                        style="width: 200px; background-color: #E58426; color: #fff; font-size: 18px; font-weight: 500; border-radius: 5px; text-align: center; padding: 7px; margin: 15px auto 15px auto;">
-                        Yes, I support KPBS!</div>-->
-                      <p style="font-weight: 700;font-size:80%;color:#262D26;line-height:30px;">Support our mission
-                        today with a tax-deductible donation.</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </td>
-          </tr>
-          <tr id="blank-footer-row">
-            <td height="10" width="100%"><span></span></td>
-          </tr>
-        </tbody>
-      </table>
-      <table id="footer-wrapper" cellspacing="0" cellpadding="0" bgcolor="#fff" align="left" width="100%">
-        <tbody>
-          <tr id="footer-box-tr">
-            <td width="100%" bgcolor="#262D26"
-              style="font-size:12px;text-align:center;padding:20px 10px;color:#FFFFFF;">
-              <table style="width:100%;">
-                <tbody>
-                  <tr style="text-align:center;width: 100%;">
-                    <td id="social" align="right" style="text-align:center;">
-                      <a href="https://www.kpbs.org/radio/livestream/" target="_blank" style="margin-right:32px;"><img
-                          src="img/newsletter-social-listen-white.db694c58a354.png" alt="Listen now icon"></a>
-                      <a href="https://www.facebook.com/pages/kpbs/6673896747" target="_blank"
-                        style="margin-right:32px;"><img src="img/newsletter-social-facebook-white.05be5f461430.png"
-                          alt="Facebook icon"></a>
-                      <a href="https://instagram.com/kpbsofficial/" target="_blank" style="margin-right:32px;"><img
-                          src="img/newsletter-social-instagram-white.5d166de5303a.png" alt="Instagram icon"></a>
-                      <a href="https://twitter.com/KPBSnews" target="_blank" style="margin-right:32px;"><img
-                          src="img/newsletter-social-twitter-white.db7fb085f77a.png" alt="Twitter icon"></a>
-                      <a href="https://www.youtube.com/c/KPBSOrgSanDiego" target="_blank"><img
-                          src="img/newsletter-social-youtube-white.35340baf83b9.png" alt="YouTube icon"></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>KPBS Public Media<br>
-                5200 Campanile Drive<br>
-                San Diego, CA 92182</p>
-              <p>If this newsletter was forwarded to you and you'd like to receive it
-                every day, <a style="color: #FFFFFF;text-decoration: underline;"
-                  href="https://www.kpbs.org/newsletters/">click here to subscribe.</a></p>
-              <p>Don't want to receive this newsletter anymore?
-                <a style="color:#FFFFFF;text-decoration: underline;"
-                  href="http://kpbs.informz.net/KPBS/pages/Weekly_Newsletter_optout">Click here to opt out.</a>
-              </p>
-              <p>KPBS is a public service of San Diego State University<br>
-                ©2023 KPBS</p>
-            </td>
-          </tr>
-          <tr id="blank-footer-row">
-            <td height="10" width="100%"><span></span></td>
-          </tr>
-          <tr id="blank-footer-row">
-            <td height="10" width="100%"><span></span></td>
-          </tr>
-        </tbody>
-      </table>
-    </td>
-  </tr>
-  <!--END FOOTER-row-->
-  </tbody>
-  </table>
-  <!--END CONTENT-LEFT-WRAPPER-table-->
-  <!--END CONTENT-LEFT-cell-->
-  <!--END CONTENT-AND-SIDEBAR-row-->
+  <!-- END__ ------- Newsletter Wrapper --------->
+
 </body>
 
 </html>
